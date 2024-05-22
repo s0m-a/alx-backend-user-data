@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" 
+"""
 Module of Basic Authentication
 """
 from api.v1.auth.auth import Auth
@@ -98,7 +98,7 @@ class BasicAuth(Auth):
         return None
 
     def current_user(self, request=None) -> TypeVar('User'):
-        """ 
+        """
         This method overloads Auth and retrieves the User
         instance for a request
         """
